@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="icon" href="./images/home-pic.jpg" type="icon/image">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/project.css">
+</head>
+<body>
+    <!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bars" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="main.html#home">home</a>
+        <a href="main.html#about">about</a>
+        <a href="main.html#services">services</a>
+        <a href="main.html#portfolio">portfolio</a>
+        <!-- <a href="main.html#bclogs">blogs</a> -->
+        <a href="main.html#contact">contact</a>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div id="particles-js"></div>
+
+    <div class="content">
+        <img class="tilt" src="images/home-pic.jpg" alt="">
+        <h3> my <span>projects</span> </h3>
+    </div>
+
+</section>
+
+<section class="project">
+
+
+    <div class="row">
+
+        <div class="image">
+            <img class="tilt" src="images/img-1.png" alt="" id="read">
+        </div>
+
+        <div class="content">
+            <h3> read-<span> a </span>-lot </h3>
+            <p class="info">A completely responsive online bookstore with a cart and payment section.</p>
+            <a href="https://readalot.vercel.app" class="btn" target="_blank">Visit Site.</a>
+        </div>
+
+    </div>
+
+    <div class="row" id="autogod">
+
+        <div class="image">
+            <img class="tilt" src="images/img-2.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3> auto<span>god</span></h3>
+            <p class="info">completely responsive car services website with html5, css and javascript.</p>
+            <a href="https://autogod.vercel.app" class="btn" target="_blank">Visit Site.</a>
+        </div>
+
+    </div>
+
+    <div class="row" id="nanite">
+
+        <div class="image">
+            <img class="tilt" src="images/img-3.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3>nan<span>ite</span></h3>
+            <p class="info">nft website .</p>
+            <a href="https://nanaite.vercel.app" class="btn" target="_blank">Visit Site.</a>
+        </div>
+
+    </div>
+
+    <div class="row" id="affinity">
+
+        <div class="image">
+            <img class="tilt" src="images/img-4.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3>aff<span>inity</span></h3>
+            <p class="info">I’m A Frontend developer Working To Help Create Outstanding Websites. I Design And Develop Beautiful Websites Which Focus On Providing The Best Experience For Everyone Using Them, Ensuring They Are Easy For Your Team To Edit While Also Delivering The Best Experience For Your Users.</p>
+            <a href="https://affinity1.vercel.app" class="btn" target="_blank">Visit Site.</a>
+        </div>
+
+    </div>
+
+    <div class="row" id="hotrod">
+
+        <div class="image">
+            <img class="tilt" src="images/img-5.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3>hot<span>rod</span></h3>
+            <p class="info">I’m A Frontend developer Working To Help Create Outstanding Websites. I Design And Develop Beautiful Websites Which Focus On Providing The Best Experience For Everyone Using Them, Ensuring They Are Easy For Your Team To Edit While Also Delivering The Best Experience For Your Users.</p>
+            <a href="https://hotrod.vercel.app" class="btn" target="_blank">Visit Site.</a>
+        </div>
+
+    </div>
+
+    <div class="row" id="cinemax">
+
+        <div class="image">
+            <img class="tilt" src="images/img-6.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3>cin<span>e</span>max</h3>
+            <p class="info">I’m A Frontend developer Working To Help Create Outstanding Websites. I Design And Develop Beautiful Websites Which Focus On Providing The Best Experience For Everyone Using Them, Ensuring They Are Easy For Your Team To Edit While Also Delivering The Best Experience For Your Users.</p>
+            <a href="https://cinemax1.vercel.app" class="btn" target="_blank">Visit Site.</a>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+<br>
+<div class="social">
+<a href="https://www.facebook.com/hilarynedu" target="_blank">
+    <i class="fab fa-facebook"></i>
+</a>
+<a href="https://www.twitter.com/hilary_nedu" target="_blank">
+    <i class="fab fa-twitter"></i>
+</a>
+<a href="https://www.instagram.com" target="_blank">
+    <i class="fab fa-instagram"></i>
+</a>
+<a href="https://github.com/chinedu11008" target="_blank">
+    <i class="fab fa-github"></i>
+</a>
+<a href="https://linkedin.com/in/chinedu-anakor" target="_blank">
+    <i class="fab fa-linkedin"></i>
+    </a>
+</div><br>
+<span class="far fa-copyright"></span> 2020 All rights reserved.</span>
+</footer>
+
+
+
+<!-- javascript part  -->
+
+<!-- typed.js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+<!-- particles.js links  -->
+<script src="js/particles.min.js"></script>
+<script src="js/app.js"></script>
+
+<!-- vanilla-tilt.js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+
+<script>
+
+let menu = document.querySelector('#menu-bars');
+let header = document.querySelector('header');
+
+menu.onclick = () =>{
+    menu.classList.toggle('fa-times');
+    header.classList.toggle('active');
+}
+
+window.onscroll = () =>{
+    menu.classList.remove('fa-times');
+    header.classList.remove('active');
+};
+
+VanillaTilt.init(document.querySelectorAll('.tilt'),{
+    max:25
+});
+
+</script>
+</body>
+</html>
