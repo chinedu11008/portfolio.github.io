@@ -96,6 +96,93 @@ header .navbar a:hover{
     display: none;
 }
 
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* height: 100vh; */
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    font-size: 80px;
+    color: var(--orangered);
+    text-shadow: #fff 0.006em 0.006em 0.007em,
+                    #9c9c9c 1px 1px 1px,
+                    #9c9c9c 1px 2px 1px,
+                    #9c9c9c 1px 3px 1px,
+                    #9c9c9c 1px 4px 1px,
+                    #9c9c9c 1px 5px 1px,
+                    #9c9c9c 1px 6px 1px,
+                    #9c9c9c 1px 7px 1px,
+                    #9c9c9c 1px 8px 1px,
+                    #9c9c9c 1px 9px 1px,
+                    #9c9c9c 1px 10px 1px,
+                    #9c9c9c 1px 11px 1px,
+                    #9c9c9c 1px 12px 1px,
+                    rgba(16,16,16,0.4) 1px 18px 6px,
+                    rgba(16,16,16,0.4) 1px 22px 10px,
+                    rgba(16,16,16,0.4) 1px 26px 35px,
+                    rgba(16,16,16,0.4) 1px 30px 65px,
+                    #fff -0.5em -0.1em 100px
+    ;
+
+    animation: ani 1s infinite ease-in-out;
+    animation-delay: calc(.1s * var(--i));
+
+}
+
+@keyframes ani {
+    0%, 100% {
+        margin-top: 0;
+        text-shadow: #fff 0.006em 0.006em 0.007em,
+                    #9c9c9c 1px 1px 1px,
+                    #9c9c9c 1px 2px 1px,
+                    #9c9c9c 1px 3px 1px,
+                    #9c9c9c 1px 4px 1px,
+                    #9c9c9c 1px 5px 1px,
+                    #9c9c9c 1px 6px 1px,
+                    #9c9c9c 1px 7px 1px,
+                    #9c9c9c 1px 8px 1px,
+                    #9c9c9c 1px 9px 1px,
+                    #9c9c9c 1px 10px 1px,
+                    #9c9c9c 1px 11px 1px,
+                    #9c9c9c 1px 12px 1px,
+                    rgba(16,16,16,0.4) 1px 18px 6px,
+                    rgba(16,16,16,0.4) 1px 22px 10px,
+                    rgba(16,16,16,0.4) 1px 26px 35px,
+                    rgba(16,16,16,0.4) 1px 30px 65px,
+                    #fff -0.5em -0.1em 100px;
+    }
+
+    50% {
+        margin-top: -20px;
+        text-shadow: #fff 0.006em 0.006em 0.007em,
+                    #9c9c9c 1px 1px 1px,
+                    #9c9c9c 1px 2px 1px,
+                    #9c9c9c 1px 3px 1px,
+                    #9c9c9c 1px 4px 1px,
+                    #9c9c9c 1px 5px 1px,
+                    #9c9c9c 1px 6px 1px,
+                    #9c9c9c 1px 7px 1px,
+                    #9c9c9c 1px 8px 1px,
+                    #9c9c9c 1px 9px 1px,
+                    #9c9c9c 1px 10px 1px,
+                    #9c9c9c 1px 11px 1px,
+                    #9c9c9c 1px 12px 1px,
+                    rgba(16,16,16,0.4) 1px 38px 26px,
+                    rgba(16,16,16,0.4) 1px 42px 30px,
+                    rgba(16,16,16,0.4) 1px 46px 65px,
+                    rgba(16,16,16,0.4) 1px 50px 95px,
+                    #fff -0.5em -0.1em 100px;
+    }
+}
+
 .home{
     display: flex;
     align-items: center;
@@ -267,5 +354,8 @@ footer span a:hover{
 
     html{
         font-size: 50%;
+    }
+    ul li{
+        font-size:55px;
     }
 }

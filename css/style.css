@@ -530,66 +530,6 @@ ul li {
 }
 
 
-
-
-
-
-
-.loader {
-    position: relative;
-    height: 100px;
-    width: 100px;
-}
-
-.loader span {
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    border-radius: 50%;
-    animation: spin 2s ease-in-out infinite;
-}
-
-.loader :nth-child(1) {
-    background-color: #edef4f;
-    animation-delay: -1.5s;
-}
-
-.loader :nth-child(2) {
-    background-color: #eb383d;
-    animation-delay: -1s;
-}
-
-.loader :nth-child(3) {
-    background-color: #50f144;
-    animation-delay: -.5s;
-}
-
-.loader :nth-child(4) {
-    background-color: #3F8F8B;
-}
-
-@keyframes spin {
-    0% {
-        transform: translate(0) scale(0);
-    }
-
-    25% {
-        transform: translate(200%) scale(1.5);
-    }
-
-    50% {
-        transform: translate(200%, 200%) scale(0);
-    }
-
-    75% {
-        transform: translate(0, 200%) scale(1.5);
-    }
-
-    100% {
-        transform: translate(0) scale(0);
-    }
-}
-
 /* media queries  */
 @media (max-width:991px){
 
@@ -644,5 +584,8 @@ ul li {
 
     .contact .row form .inputBox input{
         width:100%;
+    }
+    ul li{
+        font-size:55px;
     }
 }
