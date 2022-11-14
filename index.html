@@ -9,7 +9,6 @@
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
@@ -26,6 +25,7 @@
     <nav class="navbar">
         <a href="#home">home</a>
         <a href="#about">about</a>
+        <a href="#skills">skills</a>
         <a href="#services">services</a>
         <a href="#portfolio">portfolio</a>
         <a href="#blogs">blogs</a>
@@ -62,7 +62,7 @@
 
 </section>
 
-<div id="background-wrap">
+<!-- <div id="background-wrap">
     <div class="x1">
         <div class="cloud"></div>
     </div>
@@ -82,7 +82,7 @@
     <div class="x5">
         <div class="cloud"></div>
     </div>
-</div>
+</div> -->
 
 <!-- home section ends -->
 
@@ -123,6 +123,41 @@
 </section>
 
 <!-- about section ends -->
+<section class="skills" id="skills">
+
+    <h1 class="heading"> <span> my </span> skills </h1>
+
+    <div class="box-container">
+
+        <div class="box tilt" id="html"> 
+            <i class="fab fa-html5"></i>
+            <h3>HTML5</h3>
+        </div>
+
+        <div class="box tilt" id="css" >
+            <i class="fab fa-css3"></i>
+            <h3>CSS3</h3>
+        </div>
+
+        <div class="box tilt" id="javascript">
+            <i class="fa-brands fa-square-js"></i>
+            <h3>javascript</h3>
+
+        </div>
+
+        <div class="box tilt" id="react">
+            <i class="fab fa-react"></i>
+            <h3>React</h3>
+        </div>
+
+        <div class="box tilt" id="bootstrap">
+            <i class="fab fa-bootstrap"></i>
+            <h3>Bootstrap</h3>
+        </div>
+
+    </div>
+
+</section>
 
 <!-- services section starts  -->
 
@@ -273,18 +308,16 @@
             <img class="tilt" src="images/contact-img.svg" alt="">
         </div>
 
-        <form action="mailto:anakorchinedu93@gmail.com" method="POST" enctype="text/plain" name=”EmailForm” >
+        <form id="contact-form">
 
             <div class="inputBox">
-                <input type="text" placeholder="name">
-                <input type="email" placeholder="email">
+                <input type="text" name="user_name" placeholder="Name">
+                <input type="email" name="user_email" placeholder="Email">
             </div>
 
-            <input type="text" placeholder="subject" class="box">
+            <textarea placeholder="Message" name="message" id="" cols="30" rows="10"></textarea>
 
-            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
-
-            <input type="submit" class="btn" value="send message">
+            <input type="submit" class="btn" value="Send">
 
         </form>
 
@@ -325,53 +358,14 @@
 
 <!-- typed.js link  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-
-<!-- particles.js links  -->
-<script src="js/particles.min.js"></script>
 <script src="js/app.js"></script>
-<!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init();
-  </script> -->
-
+<script src="js/index.js"></script>
 <!-- vanilla-tilt.js link  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
-
-<script>
-
-let menu = document.querySelector('#menu-bars');
-let header = document.querySelector('header');
-
-menu.onclick = () =>{
-    menu.classList.toggle('fa-times');
-    header.classList.toggle('active');
-}
-
-window.onscroll = () =>{
-    menu.classList.remove('fa-times');
-    header.classList.remove('active');
-};
-
-var typed = new Typed(".typing-text", {
-    strings : [ "frontend web developer", "web designer", "Freelancer" ],
-    typeSpeed : 100,
-    backSpeed : 60,
-    loop : true
-});
-
-VanillaTilt.init(document.querySelectorAll('.tilt'),{
-    max:25
-});
-
-// function loader(){
-//   document.querySelector('.loader').classList.add('active');
-// }
-
-// function fadeOut(){
-//   setTimeout(loader, 4000);
-// }
-
-</script>
+<!-- fontawesome -->
+<script src="https://kit.fontawesome.com/629854f077.js" crossorigin="anonymous"></script>
+<!-- email js -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
 </body>
 </html>

@@ -17,16 +17,16 @@
 
 html{
     font-size: 62.5%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     scroll-behavior: smooth;
 }
 
 html::-webkit-scrollbar{
-    width:.7rem;
+    width:1.5rem;
 }
 
 html::-webkit-scrollbar-track{
-    background:#fff;
+    background:rgba(255, 255, 255, 0.911);
 }
 
 html::-webkit-scrollbar-thumb{
@@ -241,6 +241,86 @@ header .navbar a:hover{
     color:var(--orangered);
 }
 
+.skills .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.skills .box-container .box{
+    flex:1 1 30rem;
+    border-radius: .5rem;
+    background:#fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    padding:2rem;
+    text-align: center;
+}
+
+.skills .box-container .box i{
+    color:var(--orangered);
+    font-size: 5rem;
+    padding:1rem 0;
+}
+.skills .box-container .box:hover{
+    transform: scale(1.05);
+}
+.skills .box-container .box h3{
+    color:#222;
+    font-size: 2.5rem;
+    padding-top:1rem;
+}
+
+.skills .box-container .box p{
+    color:#333;
+    font-size:1.7rem;
+    padding:1rem 0;
+    line-height: 2;
+}
+#html:hover .fa-html5{
+    color: #fff;
+}
+#html:hover h3{
+    color: #fff;
+}
+#html:hover{
+    background:var(--orangered);
+}
+#css:hover .fa-css3{
+    color: #fff;
+}
+#css:hover h3{
+    color: #fff;
+}
+#css:hover{
+    background:rgb(0, 140, 255);
+}
+#javascript:hover .fa-square-js{
+    color: #fff;
+}
+#javascript:hover h3{
+    color: #fff;
+}
+#javascript:hover{
+    background:rgba(255, 255, 0, 0.795);
+}
+#react:hover .fa-react{
+    color: #fff;
+}
+#react:hover h3{
+    color: #fff;
+}
+#react:hover{
+    background:rgba(0, 0, 255, 0.356);
+}
+#bootstrap:hover .fa-bootstrap{
+    color: #fff;
+}
+#bootstrap:hover h3{
+    color: #fff;
+}
+#bootstrap:hover{
+    background:purple;
+}
 .services .box-container{
     display: flex;
     flex-wrap: wrap;
