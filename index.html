@@ -2,31 +2,376 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chinedu</title>
-    <link rel="icon" href="images/home-pic.jpg">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="./images/home-pic.jpg" type="icon/image">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
-    <div class="scroll-up-btn">
-        <i class="fas fa-angle-up"></i>
-    </div>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bars" class="fas fa-bars"></div>
+
     <nav class="navbar">
-        <div class="max-width">
-            <div class="logo"><a>Chinedu</a></div>
-        </div>
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#services">services</a>
+        <a href="#portfolio">portfolio</a>
+        <a href="#blogs">blogs</a>
+        <a href="#contact">contact</a>
     </nav>
 
-    <!-- home section start -->
-    <section class="home" id="home">
-        <div class="max-width">
-            <div class="home-content">
-                <div class="text-1">Hello, my name is</div>
-                <div class="text-2">Chinedu Anakor</div>
-                <a href="./main.html">View Portfolio</a><br>
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <!-- <div id="particles-js"></div> -->
+
+    <div class="content">
+        <h3> Hi <span>i'm</span> </h3>
+        <img class="tilt" src="images/home-pic.jpg" alt="">
+        <div class="name">
+            <ul>
+                <li style="--i:1">C</li>
+                <li style="--i:2">h</li>
+                <li style="--i:3">i</li>
+                <li style="--i:4">n</li>
+                <li style="--i:5">e</li>
+                <li style="--i:6">d</li>
+                <li style="--i:7">u</li>
+            </ul>
+        </div>
+        <p> i am a <span class="typing-text"></span> </p>
+        <a href="#about" class="btn">about me</a>
+    </div>
+
+</section>
+
+<div id="background-wrap">
+    <div class="x1">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="x2">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="x3">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="x4">
+        <div class="cloud"></div>
+    </div>
+
+    <div class="x5">
+        <div class="cloud"></div>
+    </div>
+</div>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> about <span>me</span> </h1>
+
+    <div class="row">
+
+        <div class="image" >
+            <img class="tilt" src="images/about-pic.jpeg" alt="">
+        </div>
+
+        <div class="content">
+            <h3> my name is <span> chinedu anakor </span> </h3>
+            <p class="info">I’m A Frontend developer Working To Help Create Outstanding Websites. I Design And Develop Beautiful Websites Which Focus On Providing The Best Experience For Everyone Using Them, Ensuring They Are Easy For Your Team To Edit While Also Delivering The Best Experience For Your Users.</p>
+            <div class="box-container">
+                <div class="box">
+                    <p> <span> age: </span> 17 </p>
+                    <p> <span> gender: </span> male </p>
+                    <p> <span> experience  : </span> 5 months </p>
+                    <p> <span> freelance : </span> available </p>
+                </div>
+                <div class="box">
+                    <p> <span> language : </span> english </p>
+                    <p> <span> phone : </span> +234-7046-458-572 </p>
+                    <p> <span> email : </span> anakorchinedu93@gmail.com </p>
+                    <p> <span> address : </span> Nigeria, akwa ibom - 524101 </p>
+                </div>
+            </div>
+            <a href="./resume/+2347046458572.pdf" download="chinedu_cv" class="btn" target="_blank">download CV</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading"> <span> my </span> services </h1>
+
+    <div class="box-container">
+
+        <div class="box tilt">
+            <i class="fas fa-code"></i>
+            <h3>web development</h3>
+            <p>I make sure your website is in tip-top shape at all times. </p>
+        </div>
+
+        <div class="box tilt" >
+            <i class="fas fa-paint-brush"></i>
+            <h3>web design</h3>
+            <p>I Design Your Website To Be As Easy To Use As Possible While Guiding Users Towards The End Goal.</p>
+        </div>
+
+        <div class="box tilt" >
+            <i class="fas fa-bullhorn"></i>
+            <h3>Advertising</h3>
+            <p>We Discuss What You Are Trying To Achieve, And Place Goals On Your Website Planning How To Achieve That.</p>
+        </div>
+
+        <div class="box tilt" >
+            <i class="fas  fa-mobile"></i>
+            <h3>Responsive designs</h3>
+            <p>I create websites that work not only on laptop screens but on any screen.</p>
+        </div>
+
+        <div class="box tilt" >
+            <i class="fas fa-glasses"></i>
+            <h3>website Review</h3>
+            <p>I Make Sure Your Website Is Performing Its Best By Thoroughly Reviewing It Before Making Any Changes.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio" id="portfolio">
+
+    <h1 class="heading"> <span> my </span> portfolio </h1>
+
+    <div class="box-container">
+
+        <div class="box tilt">
+            <img src="images/img-1.png" alt="">
+            <div class="content">
+                <a href="./projects.html#readalot" class="btn">learn more</a>
             </div>
         </div>
-    </section>
+
+        <div class="box tilt" >
+            <img src="images/img-2.png" alt="">
+            <div class="content">
+                <a href="./projects.html#autogod" class="btn">learn more</a>
+            </div>
+        </div>
+
+        <div class="box tilt" >
+            <img src="images/img-3.png" alt="">
+            <div class="content">
+                <a href="./projects.html#nanite" class="btn">learn more</a>
+            </div>
+        </div>
+
+        <div class="box tilt" >
+            <img src="images/img-4.png" alt="">
+            <div class="content">
+                <a href="./projects.html#affinity" class="btn">learn more</a>
+            </div>
+        </div>
+
+        <div class="box tilt">
+            <img src="images/img-5.png" alt="">
+            <div class="content">
+                <a href="./projects.html#hotrod" class="btn">learn more</a>
+            </div>
+        </div>
+
+        <div class="box tilt" >
+            <img src="images/img-6.png" alt="">
+            <div class="content">
+                <a href="./projects.html#cinemax" class="btn">learn more</a>
+            </div>
+        </div>
+
+    </div>
+    <a href="./projects.html" class="btn1">View all projects.</a>
+    
+</section>
+
+<!-- portfolio section ends -->
+
+<!-- blogs section starts  -->
+
+<!-- <section class="blogs" id="blogs">
+
+    <h1 class="heading"> <span> my </span> blogs </h1>
+
+    <div class="box-container">
+        
+        <div class="box tilt">
+            <img src="images/blog-img-1.jpg" alt="">
+            <h3> blogs title goes here </h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam sint tenetur adipisci explicabo nisi libero, in rerum earum. Dolor, quibusdam!</p>
+            <a href="." class="btn">learn more</a>
+        </div>
+
+        <div class="box tilt">
+            <img src="images/blog-img-2.jpg" alt="">
+            <h3> blogs title goes here </h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam sint tenetur adipisci explicabo nisi libero, in rerum earum. Dolor, quibusdam!</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+        <div class="box tilt">
+            <img src="images/blog-img-3.jpg" alt="">
+            <h3> blogs title goes here </h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam sint tenetur adipisci explicabo nisi libero, in rerum earum. Dolor, quibusdam!</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+    </div>
+
+
+</section> -->
+
+<!-- blogs section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> contact <span> me </span> </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img class="tilt" src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="mailto:anakorchinedu93@gmail.com" method="POST" enctype="text/plain" name=”EmailForm” >
+
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+
+            <input type="text" placeholder="subject" class="box">
+
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+
+            <input type="submit" class="btn" value="send message">
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section  -->
+<footer>
+    <br>
+    <div class="social">
+    <a href="https://www.facebook.com/chineduanakor" target="_blank">
+    <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://www.twitter.com/hilary_nedu" target="_blank">
+    <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://www.instagram.com/chinedu_anakor" target="_blank">
+    <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://github.com/chinedu11008" target="_blank">
+    <i class="fab fa-github"></i>
+    </a>
+    <a href="https://linkedin.com/in/chinedu-anakor" target="_blank">
+        <i class="fab fa-linkedin"></i>
+    </a>
+    </div><br>
+    <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
+</footer>
+
+
+<!-- <div class="loader"> <span></span> <span></span> <span></span> <span></span> </div> -->
+
+
+<!-- javascript part  -->
+
+<!-- typed.js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+<!-- particles.js links  -->
+<script src="js/particles.min.js"></script>
+<script src="js/app.js"></script>
+<!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script> -->
+
+<!-- vanilla-tilt.js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+
+<script>
+
+let menu = document.querySelector('#menu-bars');
+let header = document.querySelector('header');
+
+menu.onclick = () =>{
+    menu.classList.toggle('fa-times');
+    header.classList.toggle('active');
+}
+
+window.onscroll = () =>{
+    menu.classList.remove('fa-times');
+    header.classList.remove('active');
+};
+
+var typed = new Typed(".typing-text", {
+    strings : [ "frontend web developer", "web designer", "Freelancer" ],
+    typeSpeed : 100,
+    backSpeed : 60,
+    loop : true
+});
+
+VanillaTilt.init(document.querySelectorAll('.tilt'),{
+    max:25
+});
+
+// function loader(){
+//   document.querySelector('.loader').classList.add('active');
+// }
+
+// function fadeOut(){
+//   setTimeout(loader, 4000);
+// }
+
+</script>
+
 </body>
 </html>
