@@ -15,7 +15,7 @@ window.onscroll = () =>{
 var typed = new Typed(".typing-text", {
     strings : [ "frontend web developer", "web designer", "Freelancer" ],
     typeSpeed : 100,
-    backSpeed : 60,
+    backSpeed : 100,
     loop : true
 });
 
@@ -43,3 +43,4 @@ VanillaTilt.init(document.querySelectorAll('.tilt'),{
                 });
         });
     }
+

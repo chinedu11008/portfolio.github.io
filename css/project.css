@@ -311,6 +311,9 @@ footer span a:hover{
 .fa-linkedin{
     color:var(--orangered);
 }
+.fa-coffee{
+    color: var(--orangered);
+}
 
 @media (max-width:991px){
 

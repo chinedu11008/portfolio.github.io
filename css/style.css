@@ -283,7 +283,7 @@ header .navbar a:hover{
     color: #fff;
 }
 #html:hover{
-    background:var(--orangered);
+    background:rgba(255, 68, 0, 0.493);
 }
 #css:hover .fa-css3{
     color: #fff;
@@ -292,7 +292,7 @@ header .navbar a:hover{
     color: #fff;
 }
 #css:hover{
-    background:rgb(0, 140, 255);
+    background:rgba(0, 140, 255, 0.438);
 }
 #javascript:hover .fa-square-js{
     color: #fff;
@@ -301,7 +301,7 @@ header .navbar a:hover{
     color: #fff;
 }
 #javascript:hover{
-    background:rgba(255, 255, 0, 0.795);
+    background:rgba(255, 255, 0, 0.397);
 }
 #react:hover .fa-react{
     color: #fff;
@@ -319,7 +319,7 @@ header .navbar a:hover{
     color: #fff;
 }
 #bootstrap:hover{
-    background:purple;
+    background:rgba(128, 0, 128, 0.315);
 }
 .services .box-container{
     display: flex;
@@ -524,6 +524,9 @@ footer span a:hover{
     color: var(--orangered);
 }
 .fa-linkedin{
+    color: var(--orangered);
+}
+.fa-coffee{
     color: var(--orangered);
 }
 
